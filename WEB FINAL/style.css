@@ -1,0 +1,221 @@
+
+
+body{
+    background-image: linear-gradient(135deg,red,pink);
+}
+
+
+
+header{
+    
+    height: 100px;
+    width: 1024px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 5px solid black;
+    
+    }
+
+
+nav{
+    height: 50px;
+    
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+
+}
+
+main{
+    height: 400px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+footer{
+    height: 150px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.herobox1{
+    flex: 1;
+    
+    height: 100px;
+}
+
+.herobox2{
+    flex: 8;
+    
+    height: 100px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-shadow: 1px 1px ;
+    
+    
+    
+}
+
+p{
+    text-align: center;
+ 
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    padding-top: 10px;
+    
+}
+
+.cards {
+    min-height: 300px;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+    
+
+}
+
+.card1 {
+    min-height: 300px;
+    width: 24%;
+    background-image: url(images/news.jpg);
+    display: inline-block;
+    border-radius: 10px;
+    
+    
+    
+    
+}
+
+.card2 {
+    min-height: 300px;
+    width: 24%;
+    background-image: url(images/sports.jpg);
+    border-radius: 10px;
+
+    
+}
+
+.card3 {
+    min-height: 300px;
+    width: 24%;
+    background-image: url(images/music.jpg);
+    border-radius: 10px;
+
+    
+    
+}
+
+.card4 {
+    min-height: 300px;
+    width: 24%;
+    background-image: url(images/uni.jpg);
+    border-radius: 10px;
+
+    
+}
+
+.cards a{
+    font-size: 40px;
+    color: red;
+    text-decoration: none; 
+    display:inline-block;
+    padding-top: 100px;
+    font-family: serif;
+}
+
+footer a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none; 
+    padding-left: 0px;
+}
+
+.mybutton {
+
+    background-color: rgb(255, 94, 94);
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+   
+}
+
+.mybutton:hover{
+    background-color: rgb(255, 255, 131);
+    transition-duration: 1s;
+}
+
+main h1{
+    font-size: 20px;
+    text-shadow: 1px 1px ;
+}
+
+.navbutton{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+.navbutton:hover .dropdown{
+    display: block;
+    background-color: rgb(255, 108, 133);
+}
+
+
+.main2 {
+    height: 400px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.main2 p {
+
+    font-size: 30px;
+}
+
+ul a {
+    color: white;
+}
